@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Flipkart_page.Flipkart_homepage">
+    <ContentPage.Content>
+        <Grid BackgroundColor="White">
+            <StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="{Binding Line}"
+                           HeightRequest="25"
+                           Margin="20,10,0,0"/>
+                    <Label Text="{Binding Label1}" 
+                           TextColor="#2d5ecf" 
+                           FontSize="30" 
+                           Margin="20,0,0,0">
+                        <Label.FontAttributes>
+                            <OnPlatform x:TypeArguments="FontAttributes"
+                                        Android="Bold,Italic"/>
+                        </Label.FontAttributes>
+                    </Label>
+                    <Image Source="{Binding User}"
+                           HeightRequest="25"
+                           Margin="90,10,0,0"></Image>
+                    <Label Text="{Binding label2}"
+                           TextColor="Black"
+                           FontSize="Medium"
+                           Margin="0,13,0,0"></Label>
+                    <Image Source="{Binding Shopping}"
+                           HeightRequest="25"
+                           Margin="5,10,0,0"></Image>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="{Binding Label3}"
+                           Margin="70,-12,0,0">
+                        <Label.FontAttributes>
+                            <OnPlatform x:TypeArguments="FontAttributes"
+                                        Android="Bold,Italic"/>
+                        </Label.FontAttributes>
+                    </Label>
+                    <Label Text="{Binding Label4}"
+                           Margin="0,-12,0,0"
+                           TextColor="#f5e214">
+
+                        <Label.FontAttributes>
+                            <OnPlatform x:TypeArguments="FontAttributes"
+                                        Android="Bold,Italic"/>
+                        </Label.FontAttributes>
+                    </Label>
+                    <Image Source="{Binding Crop}"
+                           HeightRequest="20"
+                           Margin="-5,-10,0,0"></Image>
+                </StackLayout>
+                <StackLayout>
+                    <Frame CornerRadius="10"
+                           Margin="20,0,20,0"
+                           BackgroundColor="#edeff2"
+                           HeightRequest="10">
+                        <StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Image Source="{Binding Search}"
+                                       HeightRequest="30"
+                                       HorizontalOptions="Start"
+                                       Margin="-10,-10,0,0"></Image>
+                                <Label Text="{Binding Product}"
+                                       Margin="0,-5,0,0"></Label>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+                <StackLayout>
+                    <Frame Margin="-20,0,-20,0">
+                        <ScrollView Orientation="Horizontal" 
+                                HorizontalScrollBarVisibility="Never">
+                                <StackLayout>
+                                    <StackLayout Orientation="Horizontal"
+                                             Margin="0,-10,0,0"
+                                       BackgroundColor="White">
+                                    <Image Source="{Binding Category}"
+                                       Margin="20,10,0,0"
+                                       Aspect="Fill"
+                                       WidthRequest="60"
+                                       HeightRequest="60"></Image>
+                                        <Image Source="{Binding New1}"
+                                       Margin="20,10,0,0"
+                                       Aspect="Fill"
+                                       WidthRequest="60"
+                                       HeightRequest="60"></Image>
+                                        <Image Source="{Binding Mobile}"
+                                       Margin="10,10,0,0"
+                                       Aspect="Fill"
+                                       WidthRequest="60"
+                                       HeightRequest="60"></Image>
+                                        <Image Source="{Binding Fashion}"
+                                       Margin="10,10,0,0"
+                                       Aspect="Fill"
+                                       WidthRequest="70"
+                                       HeightRequest="60"></Image>
+                                        <Image Source="electronics"
+                                       Margin="10,10,0,0"
+                                       Aspect="Fill"
+                                       WidthRequest="80"
+                                       HeightRequest="60"></Image>
+                                        <Image Source="elect.png"
+                                       Margin="15,10,0,0"
+                                       Aspect="Fill"
+                                       WidthRequest="70"
+                                       HeightRequest="60"></Image>
+                                        <Image Source="{Binding Cooker}"
+                                       Margin="15,10,0,0"
+                                       Aspect="Fill"
+                                       WidthRequest="70"
+                                       HeightRequest="60"></Image>
+                                        <Image Source="{Binding Perfume}"
+                                       Margin="15,10,0,0"
+                                       Aspect="Fill"
+                                       WidthRequest="80"
+                                       HeightRequest="60"></Image>
+                                        <Image Source="{Binding Toys}"
+                                       Margin="10,10,0,0"
+                                       Aspect="Fill"
+                                       WidthRequest="70"
+                                       HeightRequest="60"></Image>
+                                        <Image Source="{Binding Furniture}"
+                                       Margin="10,10,0,0"
+                                       Aspect="Fill"
+                                       WidthRequest="70"
+                                       HeightRequest="60"></Image>
+                                    </StackLayout>
+                                    <StackLayout Orientation="Horizontal">
+                                        <Label Text="{Binding Categories}"
+                                   TextColor="Black"
+                                   Margin="15,-10,0,0"></Label>
+                                        <Label Text="{Binding Offer}"
+                                   TextColor="Black"
+                                   Margin="15,-8,0,0"></Label>
+                                        <Label Text="{Binding Mobiles}"
+                                   TextColor="Black"
+                                   Margin="15,-8,0,0"></Label>
+                                        <Label Text="{Binding Fash}"
+                                   TextColor="Black"
+                                   Margin="25,-8,0,0"></Label>
+                                        <Label Text="Electronics"
+                                   TextColor="Black"
+                                   Margin="20,-8,0,0"></Label>
+                                        <Label Text="{Binding App}"
+                                   TextColor="Black"
+                                   Margin="25,-8,0,0"></Label>
+                                        <Label Text="{Binding Home}"
+                                   TextColor="Black"
+                                   Margin="25,-8,0,0"></Label>
+                                        <Label Text="{Binding Care}"
+                                   TextColor="Black"
+                                   Margin="35,-8,0,0"></Label>
+                                        <Label Text="{Binding Baby}"
+                                   TextColor="Black"
+                                   Margin="15,-8,0,0"></Label>
+                                        <Label Text="{Binding Nature}"
+                                   TextColor="Black"
+                                   Margin="20,-8,0,0"></Label>
+                                    </StackLayout>
+                                </StackLayout>
+                            </ScrollView>
+                    </Frame>
+                </StackLayout>
+                <StackLayout>
+                    <StackLayout>
+                    <ScrollView Orientation="Horizontal"
+                                HorizontalScrollBarVisibility="Never">
+                        <StackLayout Orientation="Horizontal">
+                            <Image Source="{Binding ad3}"
+                               Aspect="AspectFill"
+                               HeightRequest="170"
+                               Margin="-10,0,0,0"
+                               WidthRequest="410"></Image>
+                            <Image Source="{Binding ad2}"
+                               Aspect="AspectFill"
+                               HeightRequest="170"
+                               Margin="-10,0,0,0"
+                               WidthRequest="410"></Image>
+                            <Image Source="{Binding ad4}"
+                               Aspect="AspectFill"
+                               HeightRequest="170"
+                               Margin="-10,0,0,0"
+                               WidthRequest="410"></Image>
+                            <Image Source="{Binding ad1}"
+                               Aspect="AspectFill"
+                               HeightRequest="170"
+                               Margin="-10,0,0,0"
+                               WidthRequest="410"></Image>
+                        </StackLayout>
+                    </ScrollView>
+                </StackLayout>
+                <StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="{Binding Hdfc}"
+                               Margin="20,10,0,0"
+                               WidthRequest="100"
+                               Aspect="AspectFill"></Image>
+                            <Image Source="{Binding Jacket}"
+                               Margin="20,10,0,0"
+                               WidthRequest="100"
+                               Aspect="AspectFill"></Image>
+                        <Image Source="{Binding Shoes}"
+                               Margin="20,10,0,0"
+                               WidthRequest="100"
+                               Aspect="AspectFill"></Image>
+                    </StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="{Binding You}"
+                               TextColor="Black"
+                               FontAttributes="Bold"
+                               FontSize="Medium"
+                               Margin="20,20,0,0"></Label>
+                            <Image Source="{Binding Next}"
+                               HeightRequest="30"
+                               Margin="170,15,0,0"></Image>
+                        </StackLayout>
+                        <BoxView Color="Black" 
+                             HeightRequest="1"></BoxView>
+                        <ScrollView Orientation="Vertical">
+                    <Grid HeightRequest="200" Margin="20,0,0,0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="230"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid HeightRequest="200">
+                            <Grid.ColumnDefinitions >
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+
+                            <StackLayout Orientation="Vertical">
+                                <Image Grid.RowSpan="2" Grid.Column="0"
+                                       Source="{Binding Shoes2}"
+                                       HeightRequest="200"
+                                       Aspect="AspectFit"></Image>
+                                <Label Text="{Binding Back}"
+                                       TextColor="Black"
+                                       Margin="0,-20,0,0"></Label>
+                            </StackLayout>
+                            <Image Grid.Row="0" Grid.Column="1"
+                                   Source="{Binding Bucket}"
+                                   HeightRequest="200"
+                                   Aspect="AspectFit"></Image>
+                                    <Label Grid.Row="1" Grid.Column="1" 
+                                   Text="{Binding KHK} "
+                                   Margin="30,-10,0,0"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="Start"
+                                   TextColor="Black"/>
+                            <Image Grid.Row="1" Grid.Column="1" 
+                                   Source="{Binding Blue}"
+                                   HeightRequest="200" 
+                                   Margin="0,20,0,0"
+                                   ></Image>
+                            <Label Grid.Row="1" Grid.Column="1" 
+                                   Text="{Binding Head} "
+                                   Margin="30,110,0,0"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="Start"
+                                   TextColor="Black"/>
+                        </Grid>
+                    </Grid>
+                        </ScrollView>
+                    </StackLayout>
+            </StackLayout>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

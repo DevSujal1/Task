@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "4XTurSfkbBkdj5CXNLEVnx/KSdFzAnuPKjfZwgybL1YTX4IkdHiUQIfCB6xit0dMcv4O/9d315cvyZTGJM3lGA==",
+  "success": true,
+  "projectFilePath": "D:\\Flipkart_page\\Flipkart_page\\Flipkart_page.iOS\\Flipkart_page.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\a\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\a\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\a\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

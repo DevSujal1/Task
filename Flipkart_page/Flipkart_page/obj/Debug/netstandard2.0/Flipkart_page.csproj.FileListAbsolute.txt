@@ -1,0 +1,16 @@
+D:\Flipkart_page\Flipkart_page\Flipkart_page\bin\Debug\netstandard2.0\Flipkart_page.deps.json
+D:\Flipkart_page\Flipkart_page\Flipkart_page\bin\Debug\netstandard2.0\Flipkart_page.dll
+D:\Flipkart_page\Flipkart_page\Flipkart_page\bin\Debug\netstandard2.0\ref\Flipkart_page.dll
+D:\Flipkart_page\Flipkart_page\Flipkart_page\bin\Debug\netstandard2.0\Flipkart_page.pdb
+D:\Flipkart_page\Flipkart_page\Flipkart_page\obj\Debug\netstandard2.0\Flipkart_page.csproj.AssemblyReference.cache
+D:\Flipkart_page\Flipkart_page\Flipkart_page\obj\Debug\netstandard2.0\Flipkart_page.GeneratedMSBuildEditorConfig.editorconfig
+D:\Flipkart_page\Flipkart_page\Flipkart_page\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Flipkart_page\Flipkart_page\Flipkart_page\obj\Debug\netstandard2.0\Flipkart_homepage.xaml.g.cs
+D:\Flipkart_page\Flipkart_page\Flipkart_page\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Flipkart_page\Flipkart_page\Flipkart_page\obj\Debug\netstandard2.0\Flipkart_page.AssemblyInfoInputs.cache
+D:\Flipkart_page\Flipkart_page\Flipkart_page\obj\Debug\netstandard2.0\Flipkart_page.AssemblyInfo.cs
+D:\Flipkart_page\Flipkart_page\Flipkart_page\obj\Debug\netstandard2.0\Flipkart_page.csproj.CoreCompileInputs.cache
+D:\Flipkart_page\Flipkart_page\Flipkart_page\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Flipkart_page\Flipkart_page\Flipkart_page\obj\Debug\netstandard2.0\Flipkart_page.dll
+D:\Flipkart_page\Flipkart_page\Flipkart_page\obj\Debug\netstandard2.0\refint\Flipkart_page.dll
+D:\Flipkart_page\Flipkart_page\Flipkart_page\obj\Debug\netstandard2.0\Flipkart_page.pdb
