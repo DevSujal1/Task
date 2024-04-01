@@ -25,11 +25,11 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=638471295120210761
+_nugetassetstimestamp=638475719464518271
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a
 x86
 x86_64
 androidmanifestplaceholders=
-projectfullpath=d:\flipkart_page\flipkart_page\flipkart_page.android\flipkart_page.android.csproj
+projectfullpath=d:\new folder\task\flipkart_page\flipkart_page.android\flipkart_page.android.csproj

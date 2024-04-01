@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Flipkart_page")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0d8bd6c642271b5ad842b66a1a2eb37b6e5fd6d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Flipkart_page")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Flipkart_page")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

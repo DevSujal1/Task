@@ -3414,11 +3414,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Flipkart_page\\Flipkart_page\\Flipkart_page.Android\\Flipkart_page.Android.csproj",
+      "projectUniqueName": "D:\\New folder\\Task\\Flipkart_page\\Flipkart_page.Android\\Flipkart_page.Android.csproj",
       "projectName": "Flipkart_page.Android",
-      "projectPath": "D:\\Flipkart_page\\Flipkart_page\\Flipkart_page.Android\\Flipkart_page.Android.csproj",
+      "projectPath": "D:\\New folder\\Task\\Flipkart_page\\Flipkart_page.Android\\Flipkart_page.Android.csproj",
       "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
-      "outputPath": "D:\\Flipkart_page\\Flipkart_page\\Flipkart_page.Android\\obj\\",
+      "outputPath": "D:\\New folder\\Task\\Flipkart_page\\Flipkart_page.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3439,8 +3439,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "D:\\Flipkart_page\\Flipkart_page\\Flipkart_page\\Flipkart_page.csproj": {
-              "projectPath": "D:\\Flipkart_page\\Flipkart_page\\Flipkart_page\\Flipkart_page.csproj"
+            "D:\\New folder\\Task\\Flipkart_page\\Flipkart_page\\Flipkart_page.csproj": {
+              "projectPath": "D:\\New folder\\Task\\Flipkart_page\\Flipkart_page\\Flipkart_page.csproj"
             }
           }
         }
@@ -3457,6 +3457,14 @@
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.7.0, )"
+          },
+          "Xamarin.Essentials": {
+            "target": "Package",
+            "version": "[1.7.0, )"
+          },
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[5.0.0.2196, )"
           },
           "Xamarin.Forms": {
             "target": "Package",

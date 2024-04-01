@@ -1253,11 +1253,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Flipkart_page\\Flipkart_page\\Flipkart_page.iOS\\Flipkart_page.iOS.csproj",
+      "projectUniqueName": "D:\\New folder\\Task\\Flipkart_page\\Flipkart_page.iOS\\Flipkart_page.iOS.csproj",
       "projectName": "Flipkart_page.iOS",
-      "projectPath": "D:\\Flipkart_page\\Flipkart_page\\Flipkart_page.iOS\\Flipkart_page.iOS.csproj",
+      "projectPath": "D:\\New folder\\Task\\Flipkart_page\\Flipkart_page.iOS\\Flipkart_page.iOS.csproj",
       "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
-      "outputPath": "D:\\Flipkart_page\\Flipkart_page\\Flipkart_page.iOS\\obj\\",
+      "outputPath": "D:\\New folder\\Task\\Flipkart_page\\Flipkart_page.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1278,8 +1278,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\Flipkart_page\\Flipkart_page\\Flipkart_page\\Flipkart_page.csproj": {
-              "projectPath": "D:\\Flipkart_page\\Flipkart_page\\Flipkart_page\\Flipkart_page.csproj"
+            "D:\\New folder\\Task\\Flipkart_page\\Flipkart_page\\Flipkart_page.csproj": {
+              "projectPath": "D:\\New folder\\Task\\Flipkart_page\\Flipkart_page\\Flipkart_page.csproj"
             }
           }
         }
@@ -1296,6 +1296,14 @@
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.7.0, )"
+          },
+          "Xamarin.Essentials": {
+            "target": "Package",
+            "version": "[1.7.0, )"
+          },
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[5.0.0.2196, )"
           },
           "Xamarin.Forms": {
             "target": "Package",

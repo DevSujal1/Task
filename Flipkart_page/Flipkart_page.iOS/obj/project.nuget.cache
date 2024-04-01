@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4XTurSfkbBkdj5CXNLEVnx/KSdFzAnuPKjfZwgybL1YTX4IkdHiUQIfCB6xit0dMcv4O/9d315cvyZTGJM3lGA==",
+  "dgSpecHash": "t/o9Toa3ir4JfNjsxLD10BUxGatEyCYURBwfGCw5a4yOCjjwTbXy/zHN2dYXjLU5Xc89yTs/dff/cS8ju3TwlA==",
   "success": true,
-  "projectFilePath": "D:\\Flipkart_page\\Flipkart_page\\Flipkart_page.iOS\\Flipkart_page.iOS.csproj",
+  "projectFilePath": "D:\\New folder\\Task\\Flipkart_page\\Flipkart_page.iOS\\Flipkart_page.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\a\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\a\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
